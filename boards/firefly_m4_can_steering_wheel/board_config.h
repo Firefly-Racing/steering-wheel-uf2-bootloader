@@ -1,20 +1,17 @@
 #ifndef BOARD_CONFIG_H
 #define BOARD_CONFIG_H
 
-#define VENDOR_NAME "Adafruit Industries"
-#define PRODUCT_NAME "Feather M4 CAN Express"
-#define VOLUME_LABEL "FTHRCANBOOT"
+#define VENDOR_NAME "Firefly Racing"
+#define PRODUCT_NAME "Feather M4 CAN Express - modified for steering wheel"
+#define VOLUME_LABEL "FFWHEELBOOT"
 #define INDEX_URL "http://adafru.it/4759"
 #define BOARD_ID "SAME51J19A-FeatherM4-v0"
 
 #define USB_VID 0x239A
 #define USB_PID 0x00CD
 
-#define LED_PIN PIN_PA23
-
-#define BOARD_NEOPIXEL_POWERPIN PIN_PB03
 #define BOARD_NEOPIXEL_PIN PIN_PB02
-#define BOARD_NEOPIXEL_COUNT 1
+#define BOARD_NEOPIXEL_COUNT 4
 
 #define BOOT_USART_MODULE                 SERCOM0
 #define BOOT_USART_MASK                   APBAMASK
